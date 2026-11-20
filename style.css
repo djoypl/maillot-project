@@ -1,9 +1,9 @@
 *{box-sizing:border-box}
 :root{--bg:#0b1017;--panel:#131b26;--line:#263241;--text:#f4f7fb;--muted:#9caaba;--accent:#80e0ad}
 body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
-.site-header{height:72px;padding:0 clamp(20px,5vw,70px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#0c131c}
+.site-header{height:78px;padding:0 clamp(20px,5vw,70px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#0c131c}
 .brand{display:flex;gap:12px;align-items:center;color:var(--text);font-weight:750;text-decoration:none}
-.brand-mark{width:38px;height:38px;display:grid;place-items:center;border:1px solid var(--accent);border-radius:11px;color:var(--accent);font-size:12px;letter-spacing:1px}
+.brand-logo{height:52px;width:52px;object-fit:contain;border-radius:50%}
 nav a{color:var(--text);text-decoration:none;padding:10px 15px;border-radius:10px}
 nav a.active{background:var(--panel);color:var(--accent)}
 main{max-width:1200px;margin:auto;padding:36px 24px 70px}
@@ -21,8 +21,7 @@ input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #80e0ad20}
 .club-card{display:flex;align-items:center;gap:14px;padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--text);transition:transform .15s,border-color .15s}
 .club-card:hover{transform:translateY(-3px);border-color:var(--accent)}
 .crest{width:56px;height:56px;flex:0 0 56px;display:grid;place-items:center;border-radius:15px;background:#202d3b;color:var(--accent);font-weight:800;font-size:16px}
-.club-name{font-weight:700}
-.club-country{font-size:13px;color:var(--muted);margin-top:5px}
+.club-name{font-weight:700}.club-country{font-size:13px;color:var(--muted);margin-top:5px}
 footer{text-align:center;padding:25px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-@media(max-width:520px){main{padding:24px 16px 50px}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-card{padding:12px;gap:10px}.crest{width:46px;height:46px;flex-basis:46px}}
+@media(max-width:520px){main{padding:24px 16px 50px}.brand-logo{height:44px;width:44px}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-card{padding:12px;gap:10px}.crest{width:46px;height:46px;flex-basis:46px}}

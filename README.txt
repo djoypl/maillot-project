@@ -1,1 +1,1 @@
-Football Jersey Arena - prototype page Clubs\n\nOuvre index.html dans ton navigateur.\n\nCette version est un prototype statique avec recherche et liste de clubs. Les écussons sont des initiales provisoires et les pages de clubs seront reliées aux maillots dans une prochaine étape.\n
+Football Jersey Arena - page Clubs avec logo\n\nOuvre index.html dans ton navigateur.\n\nRemplace les fichiers existants sur GitHub et ajoute logo.png à la racine.\n
