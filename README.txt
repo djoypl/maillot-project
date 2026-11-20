@@ -1,1 +1,1 @@
-Football Jersey Arena - page Clubs avec logo\n\nOuvre index.html dans ton navigateur.\n\nRemplace les fichiers existants sur GitHub et ajoute logo.png à la racine.\n
+Version corrigée : logo limité à 48px dans le header, sans image géante en fond.\nRemplace les fichiers index.html, style.css, clubs.js et ajoute logo.png.\n
