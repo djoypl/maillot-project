@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football Jersey Arena — Clubs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Football Jersey Arena accueil">
+      <span class="brand-mark">FJA</span>
+      <span>Football Jersey Arena</span>
+    </a>
+    <nav><a class="active" href="#clubs">Clubs</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">FOOTBALL JERSEY ARENA</p>
+      <h1>Tous les clubs</h1>
+      <p>Choisis un club pour découvrir ses maillots.</p>
+      <label class="search-wrap">
+        <span class="sr-only">Rechercher un club</span>
+        <input id="search" type="search" placeholder="Rechercher un club…" autocomplete="off">
+      </label>
+    </section>
+    <section id="clubs" class="club-section">
+      <div class="section-heading"><h2>Clubs</h2><span id="count"></span></div>
+      <div id="club-grid" class="club-grid"></div>
+      <p id="empty" hidden>Aucun club trouvé. Essaie un autre nom.</p>
+    </section>
+  </main>
+  <footer>Football Jersey Arena · Les maillots, au cœur du jeu.</footer>
+  <script src="clubs.js"></script>
+</body>
+</html>
